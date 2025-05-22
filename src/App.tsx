@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -9,6 +8,8 @@ import SmoothScroll from "./components/SmoothScroll";
 import CustomCursor from "./components/CustomCursor";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import "./styles/fonts.css";
+import "./styles/protected-images.css";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -16,6 +17,8 @@ import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Skills from "./pages/Skills";
+import Experience from "./pages/Experience";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +44,8 @@ const App = () => {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/projects/:id" element={<ProjectDetail />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/skills" element={<Skills />} />
+                <Route path="/experience" element={<Experience />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>

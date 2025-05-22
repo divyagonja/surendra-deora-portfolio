@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import Lenis from '@studio-freight/lenis';
+import Lenis from 'lenis';
 
 interface SmoothScrollProps {
   children: React.ReactNode;
