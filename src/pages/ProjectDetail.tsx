@@ -91,11 +91,11 @@ const ProjectDetail = () => {
     },
     {
       id: 4,
-      title: "Typographic Posters",
-      category: "Print Design",
-      year: "2022",
-      client: "Design Museum",
-      description: "A collection of typographic posters exploring the relationship between text and visual elements. Each poster tells a unique story through innovative typography and layout.",
+      title: "Christmas",
+      category: "Social Media",
+      year: "2019",
+      client: "HRH Group of Hotel",
+      description: "",
       mainImage: image4
     },
     {
