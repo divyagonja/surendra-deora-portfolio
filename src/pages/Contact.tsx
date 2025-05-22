@@ -163,11 +163,11 @@ const Contact = () => {
                 <div className="space-y-4">
                   <p className="flex items-center">
                     <Mail size={20} className="mr-4" />
-                    <span>hello@dumestudio.com</span>
+                    <span>surendrabhan1@gmail.com</span>
                   </p>
                   <p className="flex items-center">
                     <Phone size={20} className="mr-4" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+918505058163</span>
                   </p>
                 </div>
               </div>
