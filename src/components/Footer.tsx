@@ -45,8 +45,8 @@ const Footer = () => {
               <li className="text-gray-400">surendrabhan1@gmail.com</li>
               <li className="text-gray-400">+918505058163</li>
               <li className="text-gray-400">
-                123 Design Street<br />
-                New York, NY 10001
+                Udaipur<br />
+                Rajasthan, India 313001
               </li>
             </ul>
           </div>
@@ -55,7 +55,7 @@ const Footer = () => {
             <h4 className="text-lg font-serif mb-4">Social</h4>
             <ul className="space-y-2">
               <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+                <a href="https://instagram.com/solonocphoenix" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
                   <AiOutlineInstagram className="text-xl" /> Instagram
                 </a>
               </li>
@@ -65,7 +65,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+                <a href="https://www.linkedin.com/in/surendra-bhan-singh-deora-7b5921106/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
                   <AiOutlineLinkedin className="text-xl" /> LinkedIn
                 </a>
               </li>

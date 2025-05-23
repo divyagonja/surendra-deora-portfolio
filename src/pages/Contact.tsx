@@ -174,19 +174,19 @@ const Contact = () => {
               
               <div className="info-item">
                 <h3 className="text-2xl font-serif mb-4">Location</h3>
-                <p>123 Design Street<br />Creative District<br />New York, NY 10001</p>
+                <p>Udaipur,<br />Rajasthan, India<br />313001</p>
               </div>
               
               <div className="info-item">
                 <h3 className="text-2xl font-serif mb-4">Follow</h3>
                 <div className="flex space-x-6">
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
+                  <a href="https://instagram.com/solonocphoenix" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
                     <Instagram size={24} />
                   </a>
                   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
                     <Twitter size={24} />
                   </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
+                  <a href="https://www.linkedin.com/in/surendra-bhan-singh-deora-7b5921106/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
                     <Linkedin size={24} />
                   </a>
                 </div>

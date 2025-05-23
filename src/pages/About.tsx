@@ -99,7 +99,7 @@ const About = () => {
                 <span className="reveal-text inline-block">About</span>
               </div>
               <div className="overflow-hidden">
-                <span className="reveal-text inline-block">the Studio</span>
+                <span className="reveal-text inline-block"></span>
               </div>
             </h1>
           </div>
@@ -111,14 +111,14 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
             <div ref={contentRef}>
-              <h3 className="text-2xl md:text-3xl font-serif mb-6">Our Approach</h3>
+              <h3 className="text-2xl md:text-3xl font-serif mb-6">My Approach</h3>
               <p className="text-lg mb-8 leading-relaxed">
-                We are a design studio dedicated to creating impactful visual experiences. 
+                I've a design studio dedicated to creating impactful visual experiences. 
                 Our work spans across various mediums, from brand identities and print design 
                 to digital experiences and motion graphics.
               </p>
               <p className="text-lg mb-8 leading-relaxed">
-                We believe in the power of thoughtful design to transform ideas into memorable 
+                I believe in the power of thoughtful design to transform ideas into memorable 
                 experiences. Our collaborative approach ensures that each project reflects the 
                 unique vision and goals of our clients.
               </p>
@@ -168,7 +168,7 @@ const About = () => {
             <div>
               <div className="aspect-square w-full">
                 <img 
-                  src="https://images.unsplash.com/photo-1601581987415-76e5b1ee648e?q=80&w=1974" 
+                  src="https://media.licdn.com/dms/image/v2/C5603AQFlNFvLYVJuIQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517360818165?e=1753315200&v=beta&t=3HORGEkHopO_sna3coJIcrgHQhLC-whjbgp6tpZ7vxk" 
                   alt="Designer portrait" 
                   className="w-full h-full object-cover"
                 />
@@ -176,16 +176,16 @@ const About = () => {
             </div>
             
             <div className="flex flex-col justify-center">
-              <h3 className="text-2xl md:text-3xl font-serif mb-4">Jane Doe</h3>
-              <p className="text-lg mb-6 text-gray-300">Founder & Creative Director</p>
+              <h3 className="text-2xl md:text-3xl font-serif mb-4">Surendra Bhan Deora</h3>
+              <p className="text-lg mb-6 text-gray-300">Creative Graphic Designer</p>
               <p className="text-lg mb-6 leading-relaxed">
-                With over a decade of experience in the design industry, Jane has 
+                With over a decade of experience in the design industry, Surendra has 
                 worked with brands across the globe to create meaningful and impactful 
                 visual experiences.
               </p>
               <p className="text-lg leading-relaxed">
-                Her approach combines strategic thinking with a keen eye for aesthetics, 
-                resulting in work that is both beautiful and effective. Jane's work has 
+                His approach combines strategic thinking with a keen eye for aesthetics, 
+                resulting in work that is both beautiful and effective. Surendra's work has 
                 been recognized by various design publications and has received multiple 
                 industry awards.
               </p>
