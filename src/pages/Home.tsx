@@ -198,7 +198,12 @@ grab the interest of the audience.
               </ul>
               <div className="mb-2 text-sm text-blue-300">💸 Ideal for: Freelancers, small creators, personal brands</div>
               <div className="text-3xl font-extrabold text-blue-400 mb-4">$49 – $99</div>
-              <button className="w-full mt-auto py-3 rounded-lg bg-blue-500 hover:bg-blue-600 text-white font-bold transition-all duration-300">Get Started</button>
+              <Link 
+                to="/contact"
+                className="w-full mt-auto py-3 rounded-lg bg-blue-500 hover:bg-blue-600 text-white font-bold transition-all duration-300 text-center block"
+              >
+                Get Started
+              </Link>
             </div>
             {/* Level 2 – Professional Package (Most Popular) */}
             <div className="relative bg-gradient-to-b from-blue-900 via-blue-800 to-gray-900 rounded-2xl p-8 shadow-2xl flex flex-col items-start border-4 border-blue-500 scale-105 z-10">
@@ -217,7 +222,12 @@ grab the interest of the audience.
               </ul>
               <div className="mb-2 text-sm text-orange-200">🔥 Ideal for: Agencies, creators, small businesses</div>
               <div className="text-3xl font-extrabold text-orange-300 mb-4">$199 – $349</div>
-              <button className="w-full mt-auto py-3 rounded-lg bg-orange-400 hover:bg-orange-500 text-white font-bold transition-all duration-300">Get Started</button>
+              <Link 
+                to="/contact"
+                className="w-full mt-auto py-3 rounded-lg bg-orange-400 hover:bg-orange-500 text-white font-bold transition-all duration-300 text-center block"
+              >
+                Get Started
+              </Link>
             </div>
             {/* Level 3 – Premium Brand Identity */}
             <div className="relative bg-gray-900 rounded-2xl p-8 shadow-xl flex flex-col items-start border-2 border-yellow-500 hover:border-yellow-400 hover:shadow-yellow-500/30 transition-all duration-300">
@@ -235,7 +245,12 @@ grab the interest of the audience.
               </ul>
               <div className="mb-2 text-sm text-yellow-300">🚀 Ideal for: Startups, rebrands, serious professionals</div>
               <div className="text-3xl font-extrabold text-yellow-400 mb-4">$499 – $999+</div>
-              <button className="w-full mt-auto py-3 rounded-lg bg-yellow-400 hover:bg-yellow-500 text-black font-bold transition-all duration-300">Get Started</button>
+              <Link 
+                to="/contact"
+                className="w-full mt-auto py-3 rounded-lg bg-yellow-400 hover:bg-yellow-500 text-black font-bold transition-all duration-300 text-center block"
+              >
+                Get Started
+              </Link>
             </div>
           </div>
         </div>
